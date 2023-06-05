@@ -1,7 +1,7 @@
 # advanced_frontend project
 
 Testing production app with FeatureSlice Design Architectural methodology for frontend projects
-[FSD documentation](https://feature-sliced.design/)
+- [FSD documentation](https://feature-sliced.design/)
 
 ## Stack technologies
 - React
