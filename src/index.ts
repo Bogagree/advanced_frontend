@@ -1,3 +1,3 @@
 import {testFunction} from "./test";
 
-testFunction(25)
+testFunction('06.06.2023')
