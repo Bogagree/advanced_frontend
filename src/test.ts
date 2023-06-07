@@ -1,3 +1,4 @@
 export const testFunction = (date: string) => {
-    console.log(`this is a testing function from ${date}`)
+    console.log(`this is a testing function from ${date}`, 'adsfasdf')
 }
+
