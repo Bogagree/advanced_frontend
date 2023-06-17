@@ -1,11 +1,14 @@
-import React, {Suspense} from 'react';
+import React, {Suspense, useState} from 'react';
 import {Link, Route, Routes} from 'react-router-dom';
 import {Counter} from './components/Counter';
-import './index.scss'
-import {AboutPageAsync} from './components/pages/AboutPage/AboutPage.async';
-import {MainPageAsync} from './components/pages/MainPage/MainPage.async';
+import './styles/index.scss'
+import {AboutPageAsync} from './pages/AboutPage/AboutPage.async';
+import {MainPageAsync} from './pages/MainPage/MainPage.async';
+
+
 
 export const App = () => {
+    const [theme, setThem] = useState()
     return (
         <div className="app">
             <div>Feature slice design</div>
