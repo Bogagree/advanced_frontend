@@ -8,14 +8,13 @@ import {Navbar} from 'widgets/Navbar';
 
 export const App = () => {
 
-    const {theme, toggleTheme} = useTheme()
+    const {theme} = useTheme()
 
     return (
         <div className={classNames('app', {}, [theme])}>
             <div>Feature slice design</div>
             <Navbar/>
             <AppRouter/>
-            <button onClick={toggleTheme}>Toggle theme</button>
         </div>
     );
 };
