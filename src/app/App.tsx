@@ -4,6 +4,7 @@ import {classNames} from 'shared/lib/classNames/classNames';
 import {useTheme} from 'app/providers/ThemeProviders';
 import {AppRouter} from 'app/providers/router';
 import {Navbar} from 'widgets/Navbar';
+import {Sidebar} from 'widgets/Sidebar';
 
 
 export const App = () => {
@@ -14,7 +15,10 @@ export const App = () => {
         <div className={classNames('app', {}, [theme])}>
             <div>Feature slice design</div>
             <Navbar/>
-            <AppRouter/>
+            <div className="content-page">
+                <Sidebar/>
+                <AppRouter/>
+            </div>
         </div>
     );
 };
