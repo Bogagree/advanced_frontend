@@ -5,9 +5,9 @@ export function classNames(cls: string, mods: Mods = {}, additional: string[] = 
         cls,
         ...additional.filter(Boolean), // same as arr.filter(item => Boolean(item))
         Object.entries(mods)
-            .filter(([className, value]) => Boolean(value))
-            .map(([className, value]) => className)
+            .filter(([_, value]) => Boolean(value))
+            .map(([className, value]) => className),
     ].join(' ');
 }
 
-classNames('remove-btn', {hovered: true, selectable: true, red: false}, ['pdg',])
+classNames('remove-btn', { hovered: true, selectable: true, red: false }, ['pdg']);
