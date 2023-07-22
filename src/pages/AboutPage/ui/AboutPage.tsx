@@ -8,6 +8,7 @@ const AboutPage = () => {
     return (
         <div>
             <h1>{t('aboutPageTitle')}</h1>
+            <h2>{t('newH2title')}</h2>
         </div>
     );
 };
