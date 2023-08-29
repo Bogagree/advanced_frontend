@@ -42,7 +42,13 @@ module.exports = {
         'import/no-extraneous-dependencies': 'off',
         'no-underscore-dangle': 'off',
         'react/prop-types': 'off',
-        'i18next/no-literal-string': ['error', { markupOnly: true }],
+        'i18next/no-literal-string': [
+            'error',
+            {
+                markupOnly: true,
+                ignoreAttributes:
+                    ['data-testid']
+                 }],
         'max-len': ['error', { ignoreComments: true, code: 100 }],
     },
     globals: {
