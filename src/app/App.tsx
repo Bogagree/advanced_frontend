@@ -13,7 +13,6 @@ export const App = () => {
     return (
         <div className={classNames('app', {}, [theme])}>
             <Suspense fallback={<PageLoader />}>
-                <div>Feature slice design</div>
                 <Navbar />
                 <div className="content-page">
                     <Sidebar />
