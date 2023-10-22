@@ -1,4 +1,4 @@
-name: testing, linting, building
+name: linting, testing, building
 on:
   push:
     branches: [ master ]
@@ -18,9 +18,9 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: install modules
-      run: npm install
+        run: npm install
       - name: build production project
-      run: npm run build:prod
+        run: npm run build:prod
       - name: linting typescript
         run: npm run lint:ts
       - name: linting css
