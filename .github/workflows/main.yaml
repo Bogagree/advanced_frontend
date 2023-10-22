@@ -1,5 +1,5 @@
-name: Glinting, testing, building
-on: [push]
+name: linting, testing, building
+on:
   push:
     branches: [ master ]
   pull_request:
@@ -9,7 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node:version: [ 17.x ]
+        node-version: [ 17.x ]
+
     steps:
       - uses: actions/checkout@v2
       - name: Staring Node.js ${{ matrix.node-version }}
