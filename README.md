@@ -11,3 +11,5 @@ Testing production app with FeatureSlice Design Architectural methodology for fr
 - SCSS with custom UIkit
 - Jest and RTL
 - Storybook
+
+## Pipeline with github-actions
