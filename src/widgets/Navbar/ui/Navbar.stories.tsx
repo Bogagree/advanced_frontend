@@ -1,15 +1,15 @@
 import React from 'react';
-import {ComponentMeta, ComponentStory} from '@storybook/react';
+import { ComponentMeta, ComponentStory } from '@storybook/react';
 
-import {ThemeDecorator} from 'shared/config/storybook/ThemeDecorator/ThemeDecorator';
-import {Theme} from 'app/providers/ThemeProviders';
-import {Navbar} from './Navbar';
+import { ThemeDecorator } from 'shared/config/storybook/ThemeDecorator/ThemeDecorator';
+import { Theme } from 'app/providers/ThemeProviders';
+import { Navbar } from './Navbar';
 
 export default {
     title: 'Widgets/Navbar',
     component: Navbar,
     argTypes: {
-        backgroundColor: {control: 'color'},
+        backgroundColor: { control: 'color' },
     },
 } as ComponentMeta<typeof Navbar>;
 
@@ -20,6 +20,4 @@ Light.args = {};
 
 export const Dark = Template.bind({});
 Dark.args = {};
-Dark.decorators = [(ThemeDecorator(Theme.DARK))]
-
-
+Dark.decorators = [(ThemeDecorator(Theme.DARK))];
