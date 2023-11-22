@@ -1,7 +1,6 @@
 
 {
   "test": "test translation",
-  "lang": "English",
   "someErrorOccur": "An unexpected error has occurred",
   "updatePage": "Update Page",
   "trowError": "Trow test error"
