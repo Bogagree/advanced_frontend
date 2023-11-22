@@ -21,7 +21,7 @@ export const Sidebar = ({ className }: SidebarProps) => {
         setCollapsed(((prev) => !prev));
     };
 
-    const { t } = useTranslation(['main', 'about', 'sidebar']);
+    const { t } = useTranslation(['main', 'about']);
 
     return (
         <div
@@ -55,7 +55,7 @@ export const Sidebar = ({ className }: SidebarProps) => {
                     className={cls.item}
                 >
                     <AboutIcon className={cls.icon} />
-                    <span className={cls.link}>{t('about:aboutPageTitle')}</span>
+                    <span className={cls.link}>{t('aboutPageTitle', { ns: 'about' })}</span>
                 </AppLink>
             </div>
 
