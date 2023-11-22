@@ -31,6 +31,6 @@ jobs:
         if: always()
         run: npm run test:unit
       - name: build storybook
-        run: npm run storybook:build
         if: always()
+        run: npm run storybook:build
 
