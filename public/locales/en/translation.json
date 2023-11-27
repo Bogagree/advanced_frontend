@@ -3,5 +3,6 @@
   "test": "test translation",
   "someErrorOccur": "An unexpected error has occurred",
   "updatePage": "Update Page",
-  "trowError": "Trow test error"
+  "trowError": "Trow test error",
+  "aboutPageTitle": "About page"
 }

@@ -1,9 +1,5 @@
 {
-  "": "",
-  "about:aboutPageTitle": "",
-  "lang": "lang",
-  "mainPageTitle": "",
-  "shortLang": "shortLang",
-  "sidebar:lang": "",
-  "sidebar:shortLang": ""
+  "lang": "Русский",
+  "shortLang": "Ru",
+  "toggleButton": "Toggle"
 }

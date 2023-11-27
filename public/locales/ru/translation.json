@@ -3,5 +3,6 @@
   "someErrorOccur": "Произошла непредвиденная ошибка",
   "updatePage": "Обновить страницу",
   "trowError": "Выбросить тестовую ошибку",
-  "lang": "English"
+  "lang": "English",
+  "aboutPageTitle": "О проекте"
 }
