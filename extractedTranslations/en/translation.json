@@ -1,9 +1,11 @@
 
 {
-  "aboutPageTitle": "aboutPageTitle",
-  "mainPageTitle": "mainPageTitle",
-  "newH2title": "newH2title",
-  "pageIsNotFound": "pageIsNotFound",
+  "Enter": "Enter",
+  "aboutPageTitle": "About",
+  "enter": "Enter",
+  "mainPageTitle": "Main",
+  "newH2title": "new H2 title",
+  "pageIsNotFound": "Page Is Not Found",
   "someErrorOccur": "An unexpected error has occurred",
   "test": "test translation",
   "trowError": "Trow test error",
