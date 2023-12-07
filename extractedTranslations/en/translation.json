@@ -2,7 +2,9 @@
 {
   "Enter": "Enter",
   "aboutPageTitle": "About",
+  "decrement": "decrement",
   "enter": "Enter",
+  "increment": "increment",
   "mainPageTitle": "Main",
   "newH2title": "new H2 title",
   "pageIsNotFound": "Page Is Not Found",

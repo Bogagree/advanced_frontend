@@ -5,5 +5,7 @@
   "trowError": "Выбросить тестовую ошибку",
   "lang": "English",
   "aboutPageTitle": "О проекте",
-  "enter": "Войти"
+  "enter": "Войти",
+  "increment": "Увеличить",
+  "decrement": "Уменьшить"
 }

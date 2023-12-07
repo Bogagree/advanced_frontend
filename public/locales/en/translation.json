@@ -5,5 +5,7 @@
   "updatePage": "Update Page",
   "trowError": "Trow test error",
   "aboutPageTitle": "About page",
-  "enter": "Enter"
+  "enter": "Enter",
+  "increment": "increment",
+  "decrement": "decrement"
 }
