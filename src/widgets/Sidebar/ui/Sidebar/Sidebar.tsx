@@ -46,7 +46,7 @@ export const Sidebar = ({ className }: SidebarProps) => {
                 >
                     <MainIcon className={cls.icon} />
                     <span className={cls.link}>
-                        {t('aboutPageTitle')}
+                        {t('mainPageTitle')}
                     </span>
                 </AppLink>
                 <AppLink
