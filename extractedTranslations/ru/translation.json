@@ -1,5 +1,7 @@
 {
   "Enter": "Войти",
+  "EnterUserName": "Введите имя",
+  "EnterUserPassword": "Введите пароль",
   "aboutPageTitle": "О проекте",
   "decrement": "Уменьшить",
   "enter": " Войти",

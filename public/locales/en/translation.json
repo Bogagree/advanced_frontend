@@ -8,5 +8,7 @@
   "mainPageTitle": "Main page",
   "enter": "Enter",
   "increment": "increment",
-  "decrement": "decrement"
+  "decrement": "decrement",
+  "EnterUserName": "Enter user name",
+  "EnterUserPassword": "Enter user password"
 }

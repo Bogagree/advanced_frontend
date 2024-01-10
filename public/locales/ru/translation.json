@@ -8,5 +8,7 @@
   "mainPageTitle": "Главная страница",
   "enter": "Войти",
   "increment": "Увеличить",
-  "decrement": "Уменьшить"
+  "decrement": "Уменьшить",
+  "EnterUserName": "Введите имя",
+  "EnterUserPassword": "Введите пароль"
 }

@@ -1,6 +1,8 @@
 
 {
   "Enter": "Enter",
+  "EnterUserName": "Enter user name",
+  "EnterUserPassword": "Enter user password",
   "aboutPageTitle": "About",
   "decrement": "decrement",
   "enter": "Enter",
