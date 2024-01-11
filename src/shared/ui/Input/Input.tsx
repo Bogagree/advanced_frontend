@@ -63,6 +63,7 @@ export const Input = memo((props: InputProps) => {
                 <input
                     ref={ref}
                     type={type}
+                    value={value}
                     onChange={onChangeHandler}
                     className={cls.input}
                     onBlur={onBlur}
