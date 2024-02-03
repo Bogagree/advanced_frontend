@@ -1,5 +1,6 @@
 
 {
+  "AuthForm": "",
   "Enter": "Enter",
   "EnterUserName": "Enter user name",
   "EnterUserPassword": "Enter user password",
@@ -7,11 +8,26 @@
   "decrement": "decrement",
   "enter": "Enter",
   "increment": "increment",
+  "loginError": "",
+  "logout": "logout",
   "mainPageTitle": "Main",
   "newH2title": "new H2 title",
   "pageIsNotFound": "Page Is Not Found",
   "someErrorOccur": "An unexpected error has occurred",
   "test": "test translation",
+  "throw error": "throw error",
   "trowError": "Trow test error",
-  "updatePage": "Update Page"
+  "updatePage": "Update Page",
+  "Введите username": "",
+  "Введите пароль": "",
+  "Войти": "",
+  "Вы ввели неверный логин или пароль": "",
+  "Выйти": "",
+  "Главная": "",
+  "Главная страница": "",
+  "О сайте": "",
+  "Обновить страницу": "",
+  "Произошла непредвиденная ошибка": "",
+  "Страница не найдена": "",
+  "Форма авторизации": ""
 }

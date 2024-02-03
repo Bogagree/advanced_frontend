@@ -6,16 +6,16 @@
     transition: width 0.3s;
 }
 
-.lang {
-    margin-left: 20px;
-}
-
 .switchers {
     position: absolute;
     bottom: 20px;
-    width: 100%;
     display: flex;
     justify-content: center;
+    width: 100%;
+}
+
+.lang {
+    margin-left: 20px;
 }
 
 .collapseBtn {
@@ -25,26 +25,25 @@
 }
 
 .items {
-    display: flex;
-    flex-direction: column;
     margin-top: 20px;
     margin-left: 30px;
+    display: flex;
+    flex-direction: column;
 }
 
 .item {
+    margin-top: 10px;
     display: flex;
     align-items: center;
-    height: 24px;
-    margin-top: 10px;
-}
-
-.icon {
-    fill: var(--inverted-primary-color);
 }
 
 .link {
     margin-left: 10px;
     opacity: 1;
+}
+
+.icon {
+    fill: var(--inverted-primary-color);
 }
 
 .collapsed {
