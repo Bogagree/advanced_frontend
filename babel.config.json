@@ -13,7 +13,11 @@
     [
       "i18next-extract",
       {
-        "nsSeparator": "~"
+        "locales": [
+          "ru",
+          "en"
+        ],
+        "keysAsDefaultValues": true
       }
     ]
   ]

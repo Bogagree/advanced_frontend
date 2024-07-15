@@ -1,0 +1,17 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="loginByUsername.test.success" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
+    <config-file value="$PROJECT_DIR$/config/jest/jest.config.ts" />
+    <node-interpreter value="project" />
+    <node-options value="" />
+    <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+    <working-dir value="$PROJECT_DIR$" />
+    <envs />
+    <scope-kind value="TEST" />
+    <test-file value="$PROJECT_DIR$/src/features/AuthByUsername/model/services/loginByUsername/loginByUsername.test.ts" />
+    <test-names>
+      <test-name value="loginByUsername.test" />
+      <test-name value="success" />
+    </test-names>
+    <method v="2" />
+  </configuration>
+</component>
