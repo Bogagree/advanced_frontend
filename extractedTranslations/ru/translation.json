@@ -1,22 +1,13 @@
 {
-  "AuthForm": "AuthForm",
-  "Enter": "Войти",
-  "EnterUserName": "Введите имя",
-  "EnterUserPassword": "Введите пароль",
-  "aboutPageTitle": "О проекте",
-  "decrement": "Уменьшить",
-  "enter": " Войти",
-  "increment": "Увеличить",
-  "lang": "English",
-  "logout": "logout",
-  "mainPageTitle": "Главная",
-  "newH2title": "Новый заголовок h2",
-  "pageIsNotFound": "Страница не найдена",
-  "someErrorOccur": "Произошла непредвиденная ошибка",
-  "test": "тестовый перевод",
+  "Lorem ipsum dolor sit amet, consectetur adipisicing elit": {
+    " Aliquid commodi consequatur eligendi impedit incidunt necessitatibus possimus quis saepe sunt totam": {
+      "": ""
+    }
+  },
+  "PROFILE PAGE": "PROFILE PAGE",
+  "decrement": "decrement",
+  "increment": "increment",
   "throw error": "throw error",
-  "trowError": "Выбросить тестовую ошибку",
-  "updatePage": "Обновить страницу",
   "Введите username": "Введите username",
   "Введите пароль": "Введите пароль",
   "Войти": "Войти",
@@ -25,8 +16,11 @@
   "Главная": "Главная",
   "Главная страница": "Главная страница",
   "О сайте": "О сайте",
+  "О сайте123123": "О сайте123123",
   "Обновить страницу": "Обновить страницу",
+  "Переключить": "Переключить",
   "Произошла непредвиденная ошибка": "Произошла непредвиденная ошибка",
   "Страница не найдена": "Страница не найдена",
-  "Форма авторизации": "Форма авторизации"
+  "Форма авторизации": "Форма авторизации",
+  "Язык": "Язык"
 }

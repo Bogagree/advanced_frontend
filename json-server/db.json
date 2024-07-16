@@ -3,7 +3,12 @@
     {
       "id": "1",
       "title": "json-server",
-      "author": "typicode"
+      "userId": "1"
+    },
+    {
+      "id": "2",
+      "title": "json-server",
+      "userId": "2"
     }
   ],
   "comments": [
@@ -15,12 +20,19 @@
   ],
   "users": [
     {
-      "id": 1,
+      "id": "1",
       "username": "admin",
       "password": "123"
     }
   ],
   "profile": {
-    "name": "typicode"
+    "first": "Дмитрий",
+    "lastname": "Богатырев",
+    "age": 38,
+    "currency": "RUB",
+    "country": "Russia",
+    "city": "Moscow",
+    "username": "admin",
+    "avatar": "https://drive.google.com/file/d/1ITZr69mBNt_5_B_W1MH3plrgf9qdB1-a/view?usp=sharing"
   }
 }
